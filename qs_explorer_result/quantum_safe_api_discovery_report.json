@@ -1,0 +1,143 @@
+{
+    "children": [
+        {
+            "file_type": "c",
+            "findings": [
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_CIPHER_CTX_new",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/05_dynamic_alg.c",
+                    "Parent": "qse-detection-test/05_dynamic_alg.c:8",
+                    "id": "0"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_EncryptInit_ex",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/05_dynamic_alg.c",
+                    "Parent": "qse-detection-test/05_dynamic_alg.c:9",
+                    "id": "1"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_CIPHER_CTX_free",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/05_dynamic_alg.c",
+                    "Parent": "qse-detection-test/05_dynamic_alg.c:10",
+                    "id": "2"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_CIPHER_CTX_new",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/04_ifdef_disabled.c",
+                    "Parent": "qse-detection-test/04_ifdef_disabled.c:5",
+                    "id": "3"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_EncryptInit_ex",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/04_ifdef_disabled.c",
+                    "Parent": "qse-detection-test/04_ifdef_disabled.c:6",
+                    "id": "4"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_des_ede3_cbc",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/04_ifdef_disabled.c",
+                    "Parent": "qse-detection-test/04_ifdef_disabled.c:6",
+                    "id": "5"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_CIPHER_CTX_free",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/04_ifdef_disabled.c",
+                    "Parent": "qse-detection-test/04_ifdef_disabled.c:7",
+                    "id": "6"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_PKEY_keygen_init",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/02_real_call.c",
+                    "Parent": "qse-detection-test/02_real_call.c:6",
+                    "id": "7"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/02_real_call.c",
+                    "Parent": "qse-detection-test/02_real_call.c:7",
+                    "id": "8"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_PKEY_keygen",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/02_real_call.c",
+                    "Parent": "qse-detection-test/02_real_call.c:8",
+                    "id": "9"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_PKEY_keygen_init",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/03_dead_code.c",
+                    "Parent": "qse-detection-test/03_dead_code.c:7",
+                    "id": "10"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/03_dead_code.c",
+                    "Parent": "qse-detection-test/03_dead_code.c:8",
+                    "id": "11"
+                },
+                {
+                    "Asset_Type": "algorithm",
+                    "Function_Name": "EVP_PKEY_keygen",
+                    "Library": "openSSL",
+                    "Location": "qse-detection-test/03_dead_code.c",
+                    "Parent": "qse-detection-test/03_dead_code.c:9",
+                    "id": "12"
+                }
+            ],
+            "statistics": {
+                "Algorithms": {},
+                "Crypto_calls": 13,
+                "Crypto_evidences": 0,
+                "Crypto_vulnerabilities": 0,
+                "External_functions": 0,
+                "Files": {
+                    "qse-detection-test/02_real_call.c": 3,
+                    "qse-detection-test/03_dead_code.c": 3,
+                    "qse-detection-test/04_ifdef_disabled.c": 4,
+                    "qse-detection-test/05_dynamic_alg.c": 3
+                },
+                "Files_scanned": 6,
+                "Function_calls": 0,
+                "Instances": {
+                    "EVP_CIPHER_CTX_free": 2,
+                    "EVP_CIPHER_CTX_new": 2,
+                    "EVP_EncryptInit_ex": 2,
+                    "EVP_PKEY_CTX_set_rsa_keygen_bits": 2,
+                    "EVP_PKEY_keygen": 2,
+                    "EVP_PKEY_keygen_init": 2,
+                    "EVP_des_ede3_cbc": 1
+                },
+                "Libraries": {
+                    "openSSL": 13
+                },
+                "Lines_scanned": 65,
+                "Methods_scanned": 9
+            }
+        }
+    ],
+    "folderPath": "/Users/marekklofac/Documents/test"
+}

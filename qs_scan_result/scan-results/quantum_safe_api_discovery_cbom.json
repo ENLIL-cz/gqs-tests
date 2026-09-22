@@ -1,0 +1,358 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:35b87640d57940d68395f279cfc964e8",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-09-22T11:19:34Z",
+    "tools" : {
+      "services" : [
+        {
+          "provider" : {
+            "name" : "IBM Corporation."
+          },
+          "name" : "IBM Quantum Safe Explorer",
+          "version" : "2.3.2.2"
+        }
+      ]
+    },
+    "component" : {
+      "type" : "application",
+      "name" : "",
+      "version" : ""
+    },
+    "properties" : [
+      {
+        "name" : "language",
+        "value" : "c"
+      },
+      {
+        "name" : "gitUrl",
+        "value" : "https://github.com/OpenVPN/openvpn.git"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "97f59930-61a5-4e05-951e-618fc34c3c36",
+      "name" : "EVP_CIPHER_CTX_new",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/05_dynamic_alg.c",
+            "line" : 8,
+            "offset" : 27,
+            "additionalContext" : "lineHash=3c09636baa44c499cf5f5bce0693717fb5011cee6b36b802005302ea850f06ed;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "primitive" : "block-cipher"
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "a402ad45-f5e6-4a94-b63a-673688777098",
+      "name" : "EVP_EncryptInit_ex",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/05_dynamic_alg.c",
+            "line" : 9,
+            "offset" : 5,
+            "additionalContext" : "lineHash=8bf9041ef9d28cab395c2435b934c73a88be41479aad638b5d9cc45680df37d6;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "cryptoFunctions" : [
+            "encrypt"
+          ]
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "c986ab5b-d08b-49c2-b157-b75b7e83f96e",
+      "name" : "EVP_CIPHER_CTX_free",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/05_dynamic_alg.c",
+            "line" : 10,
+            "offset" : 5,
+            "additionalContext" : "lineHash=dd5c09c8c67f22d96e2c51a66414da6f8cdf4b5e41d86ea73d6e50da2348ca4a;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "primitive" : "block-cipher"
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "2ba726fb-7cb6-42fb-9389-7f6a5a894195",
+      "name" : "EVP_CIPHER_CTX_new",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/04_ifdef_disabled.c",
+            "line" : 5,
+            "offset" : 27,
+            "additionalContext" : "lineHash=47b5f670bfddc7e4221cdc71d1dd0ca5cd7e1ac484f78fc3aa54a499bf38b6b2;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "primitive" : "block-cipher"
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "ab0cd7f1-633e-4f50-bf88-32adb0bc2dd8",
+      "name" : "EVP_EncryptInit_ex",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/04_ifdef_disabled.c",
+            "line" : 6,
+            "offset" : 5,
+            "additionalContext" : "lineHash=1a55efe6e213344d0ddcdfdc106033778dac119de2bb57efe5609e67f5d523b9;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "cryptoFunctions" : [
+            "encrypt"
+          ]
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "5487caf8-7e95-4897-b7f1-f33fe457432e",
+      "name" : "EVP_des_ede3_cbc",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/04_ifdef_disabled.c",
+            "line" : 6,
+            "offset" : 29,
+            "additionalContext" : "lineHash=1a55efe6e213344d0ddcdfdc106033778dac119de2bb57efe5609e67f5d523b9;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "primitive" : "block-cipher",
+          "mode" : "cbc"
+        },
+        "oid" : "1.3.14.3.2.7"
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "9be2c5c5-2018-4e05-8b15-eb29714cbdb7",
+      "name" : "EVP_CIPHER_CTX_free",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/04_ifdef_disabled.c",
+            "line" : 7,
+            "offset" : 5,
+            "additionalContext" : "lineHash=546d4728cf0fb8ac627da7e32e98c9e1c8aa1a94a277e9dc4033482884306e04;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "primitive" : "block-cipher"
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "6c229246-e07d-4fe0-914f-d95a95966b9a",
+      "name" : "EVP_PKEY_keygen_init",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/02_real_call.c",
+            "line" : 6,
+            "offset" : 5,
+            "additionalContext" : "lineHash=bd07efa4d795df150b5295a7642dd223bbf4ede0239b1848e3256fe8f4bae8cf;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "cryptoFunctions" : [
+            "keygen"
+          ]
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "c31af8c7-ad69-4c85-bd68-9ec2555b2a25",
+      "name" : "EVP_PKEY_CTX_set_rsa_keygen_bits",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/02_real_call.c",
+            "line" : 7,
+            "offset" : 5,
+            "additionalContext" : "lineHash=f0f924b282877c603d0e53a22528531f0c48edd0ae6b5573bf76d2e45350cf83;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "primitive" : "pke",
+          "cryptoFunctions" : [
+            "keygen"
+          ]
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "dadb03a5-6961-44ae-bdba-87c42502d590",
+      "name" : "EVP_PKEY_keygen",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/02_real_call.c",
+            "line" : 8,
+            "offset" : 5,
+            "additionalContext" : "lineHash=7ed8f8345f5b4ac3814e415feff0a6be827f631167bfb60e022f7566a5f8b908;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "cryptoFunctions" : [
+            "keygen"
+          ]
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "4182b32a-c49d-4865-ad64-94e568f81e7f",
+      "name" : "EVP_PKEY_keygen_init",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/03_dead_code.c",
+            "line" : 7,
+            "offset" : 5,
+            "additionalContext" : "lineHash=bde53f21106065049f71d2ba509b872dfa19952c13150daa3b638f07193d52e7;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "cryptoFunctions" : [
+            "keygen"
+          ]
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "90976938-d8b3-470c-9831-b61e13baec87",
+      "name" : "EVP_PKEY_CTX_set_rsa_keygen_bits",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/03_dead_code.c",
+            "line" : 8,
+            "offset" : 5,
+            "additionalContext" : "lineHash=959e91004e1ee0a1cd53ab08a093ae6f70b5f54a9af75443a356c40dc3a5cc4c;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "primitive" : "pke",
+          "cryptoFunctions" : [
+            "keygen"
+          ]
+        }
+      }
+    },
+    {
+      "type" : "cryptographic-asset",
+      "bom-ref" : "f842b34a-eb8d-4df8-b44c-9a6a46071cf5",
+      "name" : "EVP_PKEY_keygen",
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "qse-detection-test/03_dead_code.c",
+            "line" : 9,
+            "offset" : 5,
+            "additionalContext" : "lineHash=2623456553999ec107ba5ed866b000a9b8757275266d7ade3d1e42ab5a2f48a1;"
+          }
+        ]
+      },
+      "cryptoProperties" : {
+        "assetType" : "algorithm",
+        "algorithmProperties" : {
+          "cryptoFunctions" : [
+            "keygen"
+          ]
+        }
+      }
+    }
+  ],
+  "vulnerabilities" : [
+    {
+      "id" : "CWE-327",
+      "source" : {
+        "name" : "CWE",
+        "url" : "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "ratings" : [
+        {
+          "severity" : "high"
+        }
+      ],
+      "cwes" : [
+        327
+      ],
+      "affects" : [
+        {
+          "ref" : "5487caf8-7e95-4897-b7f1-f33fe457432e"
+        },
+        {
+          "ref" : "c31af8c7-ad69-4c85-bd68-9ec2555b2a25"
+        },
+        {
+          "ref" : "90976938-d8b3-470c-9831-b61e13baec87"
+        }
+      ]
+    }
+  ]
+}

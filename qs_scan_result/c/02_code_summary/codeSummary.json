@@ -1,0 +1,1379 @@
+[
+  {
+    "className": "/Users/marekklofac/Documents/test/qse-detection-test/05_dynamic_alg.c",
+    "methods": [
+      {
+        "variables": [
+          {
+            "name": "argc",
+            "type": "argc",
+            "lineNumber": 5,
+            "start": 9,
+            "end": 13,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "2",
+            "type": "2",
+            "lineNumber": 5,
+            "start": 16,
+            "end": 17,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1",
+            "type": "1",
+            "lineNumber": 5,
+            "start": 26,
+            "end": 27,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1",
+            "type": "1",
+            "lineNumber": 5,
+            "start": 26,
+            "end": 27,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_get_cipherbyname",
+            "payload": "EVP_get_cipherbyname",
+            "lineNumber": 6,
+            "start": 27,
+            "end": 47,
+            "args": [
+              {
+                "name": "argv",
+                "type": "argv",
+                "lineNumber": 6,
+                "start": 48,
+                "end": 52,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "1",
+                "type": "1",
+                "lineNumber": 6,
+                "start": 53,
+                "end": 54,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1",
+            "type": "1",
+            "lineNumber": 5,
+            "start": 26,
+            "end": 27,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1",
+            "type": "1",
+            "lineNumber": 6,
+            "start": 53,
+            "end": 54,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "c",
+            "type": "c",
+            "lineNumber": 7,
+            "start": 10,
+            "end": 11,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1",
+            "type": "1",
+            "lineNumber": 7,
+            "start": 20,
+            "end": 21,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1",
+            "type": "1",
+            "lineNumber": 7,
+            "start": 20,
+            "end": 21,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_CIPHER_CTX_new",
+            "payload": "EVP_CIPHER_CTX_new",
+            "lineNumber": 8,
+            "start": 27,
+            "end": 45
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1",
+            "type": "1",
+            "lineNumber": 7,
+            "start": 20,
+            "end": 21,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_EncryptInit_ex",
+            "payload": "EVP_EncryptInit_ex",
+            "lineNumber": 9,
+            "start": 5,
+            "end": 23,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 9,
+                "start": 24,
+                "end": 27,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "c",
+                "type": "c",
+                "lineNumber": 9,
+                "start": 29,
+                "end": 30,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "NULL",
+                "type": "NULL",
+                "lineNumber": 9,
+                "start": 32,
+                "end": 36,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "NULL",
+                "type": "NULL",
+                "lineNumber": 9,
+                "start": 38,
+                "end": 42,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "NULL",
+                "type": "NULL",
+                "lineNumber": 9,
+                "start": 44,
+                "end": 48,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 9,
+            "start": 24,
+            "end": 27,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "c",
+            "type": "c",
+            "lineNumber": 9,
+            "start": 29,
+            "end": 30,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 9,
+            "start": 32,
+            "end": 36,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 9,
+            "start": 38,
+            "end": 42,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 9,
+            "start": 44,
+            "end": 48,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 9,
+            "start": 44,
+            "end": 48,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_CIPHER_CTX_free",
+            "payload": "EVP_CIPHER_CTX_free",
+            "lineNumber": 10,
+            "start": 5,
+            "end": 24,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 10,
+                "start": 25,
+                "end": 28,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 10,
+            "start": 25,
+            "end": 28,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "0",
+            "type": "0",
+            "lineNumber": 11,
+            "start": 12,
+            "end": 13,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      }
+    ],
+    "isInnerClass": false,
+    "methodNamesAndTypesMap": {},
+    "cryptoLibNames": [
+      "openSSL"
+    ]
+  },
+  {
+    "className": "/Users/marekklofac/Documents/test/qse-detection-test/04_ifdef_disabled.c",
+    "methods": [
+      {
+        "variables": [],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_CIPHER_CTX_new",
+            "payload": "EVP_CIPHER_CTX_new",
+            "lineNumber": 5,
+            "start": 27,
+            "end": 45
+          }
+        ]
+      },
+      {
+        "variables": [],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_EncryptInit_ex",
+            "payload": "EVP_EncryptInit_ex",
+            "lineNumber": 6,
+            "start": 5,
+            "end": 23,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 6,
+                "start": 24,
+                "end": 27,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "NULL",
+                "type": "NULL",
+                "lineNumber": 6,
+                "start": 49,
+                "end": 53,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "NULL",
+                "type": "NULL",
+                "lineNumber": 6,
+                "start": 55,
+                "end": 59,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "NULL",
+                "type": "NULL",
+                "lineNumber": 6,
+                "start": 61,
+                "end": 65,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 6,
+            "start": 24,
+            "end": 27,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 6,
+            "start": 24,
+            "end": 27,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_des_ede3_cbc",
+            "payload": "EVP_des_ede3_cbc",
+            "lineNumber": 6,
+            "start": 29,
+            "end": 45
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 6,
+            "start": 49,
+            "end": 53,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 6,
+            "start": 55,
+            "end": 59,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 6,
+            "start": 61,
+            "end": 65,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 6,
+            "start": 61,
+            "end": 65,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_CIPHER_CTX_free",
+            "payload": "EVP_CIPHER_CTX_free",
+            "lineNumber": 7,
+            "start": 5,
+            "end": 24,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 7,
+                "start": 25,
+                "end": 28,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 7,
+            "start": 25,
+            "end": 28,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1",
+            "type": "1",
+            "lineNumber": 8,
+            "start": 12,
+            "end": 13,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "0",
+            "type": "0",
+            "lineNumber": 13,
+            "start": 12,
+            "end": 13,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      }
+    ],
+    "isInnerClass": false,
+    "methodNamesAndTypesMap": {},
+    "cryptoLibNames": [
+      "openSSL"
+    ]
+  },
+  {
+    "className": "/Users/marekklofac/Documents/test/qse-detection-test/02_real_call.c",
+    "methods": [
+      {
+        "variables": [],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_CTX_new_id",
+            "payload": "EVP_PKEY_CTX_new_id",
+            "lineNumber": 4,
+            "start": 25,
+            "end": 44,
+            "args": [
+              {
+                "name": "EVP_PKEY_RSA",
+                "type": "EVP_PKEY_RSA",
+                "lineNumber": 4,
+                "start": 45,
+                "end": 57,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "NULL",
+                "type": "NULL",
+                "lineNumber": 4,
+                "start": 59,
+                "end": 63,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "EVP_PKEY_RSA",
+            "type": "EVP_PKEY_RSA",
+            "lineNumber": 4,
+            "start": 45,
+            "end": 57,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 4,
+            "start": 59,
+            "end": 63,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 5,
+            "start": 10,
+            "end": 13,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "0",
+            "type": "0",
+            "lineNumber": 5,
+            "start": 22,
+            "end": 23,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "0",
+            "type": "0",
+            "lineNumber": 5,
+            "start": 22,
+            "end": 23,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_keygen_init",
+            "payload": "EVP_PKEY_keygen_init",
+            "lineNumber": 6,
+            "start": 5,
+            "end": 25,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 6,
+                "start": 26,
+                "end": 29,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 6,
+            "start": 26,
+            "end": 29,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 6,
+            "start": 26,
+            "end": 29,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+            "payload": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+            "lineNumber": 7,
+            "start": 5,
+            "end": 37,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 7,
+                "start": 38,
+                "end": 41,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "2048",
+                "type": "2048",
+                "lineNumber": 7,
+                "start": 43,
+                "end": 47,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 7,
+            "start": 38,
+            "end": 41,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "2048",
+            "type": "2048",
+            "lineNumber": 7,
+            "start": 43,
+            "end": 47,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "2048",
+            "type": "2048",
+            "lineNumber": 7,
+            "start": 43,
+            "end": 47,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_keygen",
+            "payload": "EVP_PKEY_keygen",
+            "lineNumber": 8,
+            "start": 5,
+            "end": 20,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 8,
+                "start": 21,
+                "end": 24,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "out",
+                "type": "out",
+                "lineNumber": 8,
+                "start": 26,
+                "end": 29,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 8,
+            "start": 21,
+            "end": 24,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "out",
+            "type": "out",
+            "lineNumber": 8,
+            "start": 26,
+            "end": 29,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "out",
+            "type": "out",
+            "lineNumber": 8,
+            "start": 26,
+            "end": 29,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_CTX_free",
+            "payload": "EVP_PKEY_CTX_free",
+            "lineNumber": 9,
+            "start": 5,
+            "end": 22,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 9,
+                "start": 23,
+                "end": 26,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 9,
+            "start": 23,
+            "end": 26,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1",
+            "type": "1",
+            "lineNumber": 10,
+            "start": 12,
+            "end": 13,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 14,
+            "start": 22,
+            "end": 26,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 14,
+            "start": 22,
+            "end": 26,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "generate_key",
+            "payload": "generate_key",
+            "lineNumber": 15,
+            "start": 5,
+            "end": 17,
+            "args": [
+              {
+                "name": "pkey",
+                "type": "pkey",
+                "lineNumber": 15,
+                "start": 19,
+                "end": 23,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "pkey",
+            "type": "pkey",
+            "lineNumber": 15,
+            "start": 19,
+            "end": 23,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "pkey",
+            "type": "pkey",
+            "lineNumber": 15,
+            "start": 19,
+            "end": 23,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_free",
+            "payload": "EVP_PKEY_free",
+            "lineNumber": 16,
+            "start": 5,
+            "end": 18,
+            "args": [
+              {
+                "name": "pkey",
+                "type": "pkey",
+                "lineNumber": 16,
+                "start": 19,
+                "end": 23,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "pkey",
+            "type": "pkey",
+            "lineNumber": 16,
+            "start": 19,
+            "end": 23,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "0",
+            "type": "0",
+            "lineNumber": 17,
+            "start": 12,
+            "end": 13,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      }
+    ],
+    "isInnerClass": false,
+    "methodNamesAndTypesMap": {},
+    "cryptoLibNames": [
+      "openSSL"
+    ]
+  },
+  {
+    "className": "/Users/marekklofac/Documents/test/qse-detection-test/03_dead_code.c",
+    "methods": [
+      {
+        "variables": [],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_CTX_new_id",
+            "payload": "EVP_PKEY_CTX_new_id",
+            "lineNumber": 5,
+            "start": 25,
+            "end": 44,
+            "args": [
+              {
+                "name": "EVP_PKEY_RSA",
+                "type": "EVP_PKEY_RSA",
+                "lineNumber": 5,
+                "start": 45,
+                "end": 57,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "NULL",
+                "type": "NULL",
+                "lineNumber": 5,
+                "start": 59,
+                "end": 63,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "EVP_PKEY_RSA",
+            "type": "EVP_PKEY_RSA",
+            "lineNumber": 5,
+            "start": 45,
+            "end": 57,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "NULL",
+            "type": "NULL",
+            "lineNumber": 5,
+            "start": 59,
+            "end": 63,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 6,
+            "start": 10,
+            "end": 13,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "0",
+            "type": "0",
+            "lineNumber": 6,
+            "start": 22,
+            "end": 23,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "0",
+            "type": "0",
+            "lineNumber": 6,
+            "start": 22,
+            "end": 23,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_keygen_init",
+            "payload": "EVP_PKEY_keygen_init",
+            "lineNumber": 7,
+            "start": 5,
+            "end": 25,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 7,
+                "start": 26,
+                "end": 29,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 7,
+            "start": 26,
+            "end": 29,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 7,
+            "start": 26,
+            "end": 29,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+            "payload": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+            "lineNumber": 8,
+            "start": 5,
+            "end": 37,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 8,
+                "start": 38,
+                "end": 41,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "1024",
+                "type": "1024",
+                "lineNumber": 8,
+                "start": 43,
+                "end": 47,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 8,
+            "start": 38,
+            "end": 41,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1024",
+            "type": "1024",
+            "lineNumber": 8,
+            "start": 43,
+            "end": 47,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1024",
+            "type": "1024",
+            "lineNumber": 8,
+            "start": 43,
+            "end": 47,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_keygen",
+            "payload": "EVP_PKEY_keygen",
+            "lineNumber": 9,
+            "start": 5,
+            "end": 20,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 9,
+                "start": 21,
+                "end": 24,
+                "isConstructor": false,
+                "paramIndex": 0
+              },
+              {
+                "name": "out",
+                "type": "out",
+                "lineNumber": 9,
+                "start": 26,
+                "end": 29,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 9,
+            "start": 21,
+            "end": 24,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "out",
+            "type": "out",
+            "lineNumber": 9,
+            "start": 26,
+            "end": 29,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "out",
+            "type": "out",
+            "lineNumber": 9,
+            "start": 26,
+            "end": 29,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ],
+        "functions": [
+          {
+            "fullyQualifiedName": "EVP_PKEY_CTX_free",
+            "payload": "EVP_PKEY_CTX_free",
+            "lineNumber": 10,
+            "start": 5,
+            "end": 22,
+            "args": [
+              {
+                "name": "ctx",
+                "type": "ctx",
+                "lineNumber": 10,
+                "start": 23,
+                "end": 26,
+                "isConstructor": false,
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "ctx",
+            "type": "ctx",
+            "lineNumber": 10,
+            "start": 23,
+            "end": 26,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "1",
+            "type": "1",
+            "lineNumber": 11,
+            "start": 12,
+            "end": 13,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      },
+      {
+        "variables": [
+          {
+            "name": "0",
+            "type": "0",
+            "lineNumber": 15,
+            "start": 12,
+            "end": 13,
+            "isConstructor": false,
+            "paramIndex": 0
+          }
+        ]
+      }
+    ],
+    "isInnerClass": false,
+    "methodNamesAndTypesMap": {},
+    "cryptoLibNames": [
+      "openSSL"
+    ]
+  }
+]

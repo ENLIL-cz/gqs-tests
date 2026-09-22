@@ -1,0 +1,650 @@
+{
+    "applicationId": " ",
+    "applicationVersion": " ",
+    "children": [
+        {
+            "children": [
+                {
+                    "crypto_info": [
+                        {
+                            "call_line": 8,
+                            "complianceLevels": [
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm or primitive could not be discovered, which does not allow further categorization.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm could not be discovered, which does not allow further categorization.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "library": "openSSL",
+                                "name": "EVP_CIPHER_CTX_new",
+                                "primitive": "block-cipher"
+                            },
+                            "crypto_vulnerabilities": [],
+                            "end": 45,
+                            "endScoped": 45,
+                            "file_path": "qse-detection-test/05_dynamic_alg.c",
+                            "id": 0,
+                            "lineHash": "3c09636baa44c499cf5f5bce0693717fb5011cee6b36b802005302ea850f06ed",
+                            "start": 27,
+                            "startScoped": 27,
+                            "title": "EVP_CIPHER_CTX_new",
+                            "tooltip": [
+                                "EVP_CIPHER_CTX_new"
+                            ]
+                        },
+                        {
+                            "call_line": 9,
+                            "complianceLevels": [
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm or primitive could not be discovered, which does not allow further categorization.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm could not be discovered, which does not allow further categorization.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "cryptoFunction": "encrypt",
+                                "library": "openSSL",
+                                "name": "EVP_EncryptInit_ex"
+                            },
+                            "crypto_vulnerabilities": [],
+                            "end": 23,
+                            "endScoped": 23,
+                            "file_path": "qse-detection-test/05_dynamic_alg.c",
+                            "id": 1,
+                            "lineHash": "8bf9041ef9d28cab395c2435b934c73a88be41479aad638b5d9cc45680df37d6",
+                            "start": 5,
+                            "startScoped": 5,
+                            "title": "EVP_EncryptInit_ex",
+                            "tooltip": [
+                                "EVP_EncryptInit_ex"
+                            ]
+                        },
+                        {
+                            "call_line": 10,
+                            "complianceLevels": [
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm or primitive could not be discovered, which does not allow further categorization.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm could not be discovered, which does not allow further categorization.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "library": "openSSL",
+                                "name": "EVP_CIPHER_CTX_free",
+                                "primitive": "block-cipher"
+                            },
+                            "crypto_vulnerabilities": [],
+                            "end": 24,
+                            "endScoped": 24,
+                            "file_path": "qse-detection-test/05_dynamic_alg.c",
+                            "id": 2,
+                            "lineHash": "dd5c09c8c67f22d96e2c51a66414da6f8cdf4b5e41d86ea73d6e50da2348ca4a",
+                            "start": 5,
+                            "startScoped": 5,
+                            "title": "EVP_CIPHER_CTX_free",
+                            "tooltip": [
+                                "EVP_CIPHER_CTX_free"
+                            ]
+                        }
+                    ],
+                    "file_id": "da9836ba-7574-4675-ad7b-e73e4df85fa0",
+                    "full_name": "qse-detection-test/05_dynamic_alg.c",
+                    "name": "05_dynamic_alg.c",
+                    "num_artifacts": 3
+                },
+                {
+                    "crypto_info": [
+                        {
+                            "call_line": 5,
+                            "complianceLevels": [
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm or primitive could not be discovered, which does not allow further categorization.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm could not be discovered, which does not allow further categorization.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "library": "openSSL",
+                                "name": "EVP_CIPHER_CTX_new",
+                                "primitive": "block-cipher"
+                            },
+                            "crypto_vulnerabilities": [],
+                            "end": 45,
+                            "endScoped": 45,
+                            "file_path": "qse-detection-test/04_ifdef_disabled.c",
+                            "id": 0,
+                            "lineHash": "47b5f670bfddc7e4221cdc71d1dd0ca5cd7e1ac484f78fc3aa54a499bf38b6b2",
+                            "start": 27,
+                            "startScoped": 27,
+                            "title": "EVP_CIPHER_CTX_new",
+                            "tooltip": [
+                                "EVP_CIPHER_CTX_new"
+                            ]
+                        },
+                        {
+                            "call_line": 6,
+                            "complianceLevels": [
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm or primitive could not be discovered, which does not allow further categorization.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm could not be discovered, which does not allow further categorization.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "cryptoFunction": "encrypt",
+                                "library": "openSSL",
+                                "name": "EVP_EncryptInit_ex"
+                            },
+                            "crypto_vulnerabilities": [],
+                            "end": 23,
+                            "endScoped": 23,
+                            "file_path": "qse-detection-test/04_ifdef_disabled.c",
+                            "id": 1,
+                            "lineHash": "1a55efe6e213344d0ddcdfdc106033778dac119de2bb57efe5609e67f5d523b9",
+                            "start": 5,
+                            "startScoped": 5,
+                            "title": "EVP_EncryptInit_ex",
+                            "tooltip": [
+                                "EVP_EncryptInit_ex"
+                            ]
+                        },
+                        {
+                            "call_line": 6,
+                            "complianceLevels": [
+                                {
+                                    "label": "FIPS140-3-L1 non-compliant",
+                                    "message": "Use of non-approved block-cipher algorithm DES",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Not Applicable: we only categorize asymmetric algorithms",
+                                    "label": "Not Applicable",
+                                    "message": "The asset has a symmetric primitive, so the Quantum Safe categorization is not applicable.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": false
+                                }
+                            ],
+                            "crypto_properties": {
+                                "algorithmFamily": "DES",
+                                "assetType": "algorithm",
+                                "blockSize": "64",
+                                "library": "openSSL",
+                                "mode": "cbc",
+                                "name": "EVP_des_ede3_cbc",
+                                "oid": "1.3.14.3.2.7",
+                                "primitive": "block-cipher",
+                                "privateKeySize": "56",
+                                "publicKeySize": "56",
+                                "variant": "DES"
+                            },
+                            "crypto_vulnerabilities": [
+                                {
+                                    "classification": "cwe327",
+                                    "debugMessage": "Use of broken or risky cryptographic algorithm: DES",
+                                    "references": [
+                                        {
+                                            "context": {
+                                                "location": {
+                                                    "endColumn": 45,
+                                                    "fileName": "qse-detection-test/04_ifdef_disabled.c",
+                                                    "line": 6,
+                                                    "startColumn": 29
+                                                }
+                                            },
+                                            "type": "variant",
+                                            "value": "DES"
+                                        }
+                                    ],
+                                    "type": "Definitive",
+                                    "vulnerabilityDocumentationReference": "https://cwe.mitre.org/data/definitions/327.html",
+                                    "vulnerabilityId": "2",
+                                    "vulnerabilityScore": "high"
+                                },
+                                {
+                                    "classification": "cwe1204",
+                                    "debugMessage": "Use a dynamically-generated, random initialization vector (IV).",
+                                    "references": [
+                                        {
+                                            "context": {
+                                                "location": {
+                                                    "endColumn": 45,
+                                                    "fileName": "qse-detection-test/04_ifdef_disabled.c",
+                                                    "line": 6,
+                                                    "startColumn": 29
+                                                }
+                                            },
+                                            "type": "primitive",
+                                            "value": "block-cipher"
+                                        },
+                                        {
+                                            "context": {
+                                                "location": {
+                                                    "endColumn": 45,
+                                                    "fileName": "qse-detection-test/04_ifdef_disabled.c",
+                                                    "line": 6,
+                                                    "startColumn": 29
+                                                }
+                                            },
+                                            "type": "mode",
+                                            "value": "cbc"
+                                        }
+                                    ],
+                                    "type": "Suggestive",
+                                    "vulnerabilityDocumentationReference": "https://cwe.mitre.org/data/definitions/1204.html",
+                                    "vulnerabilityId": "20",
+                                    "vulnerabilityScore": "high"
+                                }
+                            ],
+                            "end": 45,
+                            "endScoped": 45,
+                            "file_path": "qse-detection-test/04_ifdef_disabled.c",
+                            "id": 2,
+                            "lineHash": "1a55efe6e213344d0ddcdfdc106033778dac119de2bb57efe5609e67f5d523b9",
+                            "start": 29,
+                            "startScoped": 29,
+                            "title": "EVP_des_ede3_cbc",
+                            "tooltip": [
+                                "EVP_des_ede3_cbc"
+                            ]
+                        },
+                        {
+                            "call_line": 7,
+                            "complianceLevels": [
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm or primitive could not be discovered, which does not allow further categorization.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm could not be discovered, which does not allow further categorization.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "library": "openSSL",
+                                "name": "EVP_CIPHER_CTX_free",
+                                "primitive": "block-cipher"
+                            },
+                            "crypto_vulnerabilities": [],
+                            "end": 24,
+                            "endScoped": 24,
+                            "file_path": "qse-detection-test/04_ifdef_disabled.c",
+                            "id": 3,
+                            "lineHash": "546d4728cf0fb8ac627da7e32e98c9e1c8aa1a94a277e9dc4033482884306e04",
+                            "start": 5,
+                            "startScoped": 5,
+                            "title": "EVP_CIPHER_CTX_free",
+                            "tooltip": [
+                                "EVP_CIPHER_CTX_free"
+                            ]
+                        }
+                    ],
+                    "file_id": "d40f4ffe-0e06-4d0e-ab04-e0a16cb64813",
+                    "full_name": "qse-detection-test/04_ifdef_disabled.c",
+                    "name": "04_ifdef_disabled.c",
+                    "num_artifacts": 4
+                },
+                {
+                    "crypto_info": [
+                        {
+                            "call_line": 6,
+                            "complianceLevels": [
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm or primitive could not be discovered, which does not allow further categorization.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm could not be discovered, which does not allow further categorization.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "cryptoFunction": "keygen",
+                                "library": "openSSL",
+                                "name": "EVP_PKEY_keygen_init"
+                            },
+                            "crypto_vulnerabilities": [],
+                            "end": 25,
+                            "endScoped": 25,
+                            "file_path": "qse-detection-test/02_real_call.c",
+                            "id": 0,
+                            "lineHash": "bd07efa4d795df150b5295a7642dd223bbf4ede0239b1848e3256fe8f4bae8cf",
+                            "start": 5,
+                            "startScoped": 5,
+                            "title": "EVP_PKEY_keygen_init",
+                            "tooltip": [
+                                "EVP_PKEY_keygen_init"
+                            ]
+                        },
+                        {
+                            "call_line": 7,
+                            "complianceLevels": [
+                                {
+                                    "label": "FIPS140-3-L1 compliant",
+                                    "message": "Use of FIPS approved asymmetric key pair generation algorithm RSA with the key size 2048.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": false
+                                },
+                                {
+                                    "label": "Not Quantum Safe",
+                                    "message": "The asset has an asymmetric primitive and does not match with the Quantum Safe whitelists of OIDs and algorithms.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "cryptoFunction": "keygen",
+                                "library": "openSSL",
+                                "name": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+                                "primitive": "pke",
+                                "privateKeySize": "2048",
+                                "publicKeySize": "2048",
+                                "variant": "RSA"
+                            },
+                            "crypto_vulnerabilities": [
+                                {
+                                    "classification": "cwe327",
+                                    "debugMessage": "Use of non-quantum-resistant public-key algorithms (must be ML-KEM, ML-DSA, SLH-DSA): RSA",
+                                    "references": [
+                                        {
+                                            "context": {
+                                                "location": {
+                                                    "endColumn": 37,
+                                                    "fileName": "qse-detection-test/02_real_call.c",
+                                                    "line": 7,
+                                                    "startColumn": 5
+                                                }
+                                            },
+                                            "type": "variant",
+                                            "value": "RSA"
+                                        }
+                                    ],
+                                    "type": "Definitive",
+                                    "vulnerabilityDocumentationReference": "https://cwe.mitre.org/data/definitions/327.html",
+                                    "vulnerabilityId": "4",
+                                    "vulnerabilityScore": "high"
+                                }
+                            ],
+                            "end": 37,
+                            "endScoped": 37,
+                            "file_path": "qse-detection-test/02_real_call.c",
+                            "id": 1,
+                            "lineHash": "f0f924b282877c603d0e53a22528531f0c48edd0ae6b5573bf76d2e45350cf83",
+                            "start": 5,
+                            "startScoped": 5,
+                            "title": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+                            "tooltip": [
+                                "EVP_PKEY_CTX_set_rsa_keygen_bits"
+                            ]
+                        },
+                        {
+                            "call_line": 8,
+                            "complianceLevels": [
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm or primitive could not be discovered, which does not allow further categorization.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm could not be discovered, which does not allow further categorization.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "cryptoFunction": "keygen",
+                                "library": "openSSL",
+                                "name": "EVP_PKEY_keygen"
+                            },
+                            "crypto_vulnerabilities": [],
+                            "end": 20,
+                            "endScoped": 20,
+                            "file_path": "qse-detection-test/02_real_call.c",
+                            "id": 2,
+                            "lineHash": "7ed8f8345f5b4ac3814e415feff0a6be827f631167bfb60e022f7566a5f8b908",
+                            "start": 5,
+                            "startScoped": 5,
+                            "title": "EVP_PKEY_keygen",
+                            "tooltip": [
+                                "EVP_PKEY_keygen"
+                            ]
+                        }
+                    ],
+                    "file_id": "3c21cde0-f98f-4768-90c3-656cc6174e3f",
+                    "full_name": "qse-detection-test/02_real_call.c",
+                    "name": "02_real_call.c",
+                    "num_artifacts": 3
+                },
+                {
+                    "crypto_info": [
+                        {
+                            "call_line": 7,
+                            "complianceLevels": [
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm or primitive could not be discovered, which does not allow further categorization.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm could not be discovered, which does not allow further categorization.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "cryptoFunction": "keygen",
+                                "library": "openSSL",
+                                "name": "EVP_PKEY_keygen_init"
+                            },
+                            "crypto_vulnerabilities": [],
+                            "end": 25,
+                            "endScoped": 25,
+                            "file_path": "qse-detection-test/03_dead_code.c",
+                            "id": 0,
+                            "lineHash": "bde53f21106065049f71d2ba509b872dfa19952c13150daa3b638f07193d52e7",
+                            "start": 5,
+                            "startScoped": 5,
+                            "title": "EVP_PKEY_keygen_init",
+                            "tooltip": [
+                                "EVP_PKEY_keygen_init"
+                            ]
+                        },
+                        {
+                            "call_line": 8,
+                            "complianceLevels": [
+                                {
+                                    "label": "FIPS140-3-L1 compliant",
+                                    "message": "Use of FIPS approved asymmetric key pair generation algorithm RSA with the key size 2048.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": false
+                                },
+                                {
+                                    "label": "Not Quantum Safe",
+                                    "message": "The asset has an asymmetric primitive and does not match with the Quantum Safe whitelists of OIDs and algorithms.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "cryptoFunction": "keygen",
+                                "library": "openSSL",
+                                "name": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+                                "primitive": "pke",
+                                "privateKeySize": "2048",
+                                "publicKeySize": "2048",
+                                "variant": "RSA"
+                            },
+                            "crypto_vulnerabilities": [
+                                {
+                                    "classification": "cwe327",
+                                    "debugMessage": "Use of non-quantum-resistant public-key algorithms (must be ML-KEM, ML-DSA, SLH-DSA): RSA",
+                                    "references": [
+                                        {
+                                            "context": {
+                                                "location": {
+                                                    "endColumn": 37,
+                                                    "fileName": "qse-detection-test/03_dead_code.c",
+                                                    "line": 8,
+                                                    "startColumn": 5
+                                                }
+                                            },
+                                            "type": "variant",
+                                            "value": "RSA"
+                                        }
+                                    ],
+                                    "type": "Definitive",
+                                    "vulnerabilityDocumentationReference": "https://cwe.mitre.org/data/definitions/327.html",
+                                    "vulnerabilityId": "4",
+                                    "vulnerabilityScore": "high"
+                                }
+                            ],
+                            "end": 37,
+                            "endScoped": 37,
+                            "file_path": "qse-detection-test/03_dead_code.c",
+                            "id": 1,
+                            "lineHash": "959e91004e1ee0a1cd53ab08a093ae6f70b5f54a9af75443a356c40dc3a5cc4c",
+                            "start": 5,
+                            "startScoped": 5,
+                            "title": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+                            "tooltip": [
+                                "EVP_PKEY_CTX_set_rsa_keygen_bits"
+                            ]
+                        },
+                        {
+                            "call_line": 9,
+                            "complianceLevels": [
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm or primitive could not be discovered, which does not allow further categorization.",
+                                    "type": "fips140-3-l1",
+                                    "unCompliant": true
+                                },
+                                {
+                                    "description": "Unknown Compliance",
+                                    "label": "Unknown",
+                                    "message": "The cryptographic algorithm could not be discovered, which does not allow further categorization.",
+                                    "type": "quantum_safe",
+                                    "unCompliant": true
+                                }
+                            ],
+                            "crypto_properties": {
+                                "assetType": "algorithm",
+                                "cryptoFunction": "keygen",
+                                "library": "openSSL",
+                                "name": "EVP_PKEY_keygen"
+                            },
+                            "crypto_vulnerabilities": [],
+                            "end": 20,
+                            "endScoped": 20,
+                            "file_path": "qse-detection-test/03_dead_code.c",
+                            "id": 2,
+                            "lineHash": "2623456553999ec107ba5ed866b000a9b8757275266d7ade3d1e42ab5a2f48a1",
+                            "start": 5,
+                            "startScoped": 5,
+                            "title": "EVP_PKEY_keygen",
+                            "tooltip": [
+                                "EVP_PKEY_keygen"
+                            ]
+                        }
+                    ],
+                    "file_id": "ea99dfee-3357-405e-bad6-88a33e27e3ee",
+                    "full_name": "qse-detection-test/03_dead_code.c",
+                    "name": "03_dead_code.c",
+                    "num_artifacts": 3
+                }
+            ],
+            "file_type": "c"
+        }
+    ],
+    "metadata": {
+        "properties": [],
+        "provider": {
+            "name": "IBM Quantum Safe Explorer",
+            "version": "2.3.2.2"
+        }
+    },
+    "name": "crypto artifacts",
+    "num_artifacts": 13,
+    "repositoryId": "openvpn",
+    "repositoryUrl": "https://github.com/OpenVPN/openvpn.git",
+    "scanId": "35b87640d57940d68395f279cfc964e8",
+    "scanTime": "2026-09-22T11:19:34.701669Z"
+}

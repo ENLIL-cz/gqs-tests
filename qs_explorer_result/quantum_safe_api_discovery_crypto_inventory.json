@@ -1,0 +1,188 @@
+{
+  "scanId": "35b87640d57940d68395f279cfc964e8",
+  "applicationId": " ",
+  "applicationVersion": " ",
+  "scanTime": "2026-09-22T11:19:34.701214Z",
+  "totalCryptoArtifacts": "13",
+  "metadata": {
+    "provider": {
+      "name": "IBM Quantum Safe Explorer",
+      "version": "2.3.2.2"
+    },
+    "properties": []
+  },
+  "findings": [
+    {
+      "fileType": "c",
+      "children": [
+        {
+          "fileName": "/Users/marekklofac/Documents/test/qse-detection-test/05_dynamic_alg.c",
+          "cryptoArtifacts": 3,
+          "cryptoInfo": [
+            {
+              "functionName": "EVP_CIPHER_CTX_new",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 8,
+                  "startColumn": 27,
+                  "endColumn": 45
+                }
+              ]
+            },
+            {
+              "functionName": "EVP_EncryptInit_ex",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 9,
+                  "startColumn": 5,
+                  "endColumn": 23
+                }
+              ]
+            },
+            {
+              "functionName": "EVP_CIPHER_CTX_free",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 10,
+                  "startColumn": 5,
+                  "endColumn": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "/Users/marekklofac/Documents/test/qse-detection-test/04_ifdef_disabled.c",
+          "cryptoArtifacts": 4,
+          "cryptoInfo": [
+            {
+              "functionName": "EVP_CIPHER_CTX_new",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 5,
+                  "startColumn": 27,
+                  "endColumn": 45
+                }
+              ]
+            },
+            {
+              "functionName": "EVP_EncryptInit_ex",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 6,
+                  "startColumn": 5,
+                  "endColumn": 23
+                }
+              ]
+            },
+            {
+              "functionName": "EVP_des_ede3_cbc",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 6,
+                  "startColumn": 29,
+                  "endColumn": 45
+                }
+              ]
+            },
+            {
+              "functionName": "EVP_CIPHER_CTX_free",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 7,
+                  "startColumn": 5,
+                  "endColumn": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "/Users/marekklofac/Documents/test/qse-detection-test/02_real_call.c",
+          "cryptoArtifacts": 3,
+          "cryptoInfo": [
+            {
+              "functionName": "EVP_PKEY_keygen_init",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 6,
+                  "startColumn": 5,
+                  "endColumn": 25
+                }
+              ]
+            },
+            {
+              "functionName": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 7,
+                  "startColumn": 5,
+                  "endColumn": 37
+                }
+              ]
+            },
+            {
+              "functionName": "EVP_PKEY_keygen",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 8,
+                  "startColumn": 5,
+                  "endColumn": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "/Users/marekklofac/Documents/test/qse-detection-test/03_dead_code.c",
+          "cryptoArtifacts": 3,
+          "cryptoInfo": [
+            {
+              "functionName": "EVP_PKEY_keygen_init",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 7,
+                  "startColumn": 5,
+                  "endColumn": 25
+                }
+              ]
+            },
+            {
+              "functionName": "EVP_PKEY_CTX_set_rsa_keygen_bits",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 8,
+                  "startColumn": 5,
+                  "endColumn": 37
+                }
+              ]
+            },
+            {
+              "functionName": "EVP_PKEY_keygen",
+              "library": "openSSL",
+              "locations": [
+                {
+                  "line": 9,
+                  "startColumn": 5,
+                  "endColumn": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

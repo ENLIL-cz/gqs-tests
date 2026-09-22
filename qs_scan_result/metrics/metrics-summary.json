@@ -1,0 +1,56 @@
+{
+  "mapCollections": {
+    "c": {
+      "map": {
+        "/Users/marekklofac/Documents/test/qse-detection-test/01_include_only.c": {
+          "path": "/Users/marekklofac/Documents/test/qse-detection-test/01_include_only.c",
+          "totalLinesOfCode": 7,
+          "activeLinesOfCode": 6,
+          "methodDefined": 1,
+          "methodCalls": 0,
+          "variables": 0
+        },
+        "/Users/marekklofac/Documents/test/qse-detection-test/02_real_call.c": {
+          "path": "/Users/marekklofac/Documents/test/qse-detection-test/02_real_call.c",
+          "totalLinesOfCode": 18,
+          "activeLinesOfCode": 16,
+          "methodDefined": 2,
+          "methodCalls": 0,
+          "variables": 0
+        },
+        "/Users/marekklofac/Documents/test/qse-detection-test/03_dead_code.c": {
+          "path": "/Users/marekklofac/Documents/test/qse-detection-test/03_dead_code.c",
+          "totalLinesOfCode": 16,
+          "activeLinesOfCode": 13,
+          "methodDefined": 2,
+          "methodCalls": 0,
+          "variables": 0
+        },
+        "/Users/marekklofac/Documents/test/qse-detection-test/04_ifdef_disabled.c": {
+          "path": "/Users/marekklofac/Documents/test/qse-detection-test/04_ifdef_disabled.c",
+          "totalLinesOfCode": 14,
+          "activeLinesOfCode": 12,
+          "methodDefined": 2,
+          "methodCalls": 0,
+          "variables": 0
+        },
+        "/Users/marekklofac/Documents/test/qse-detection-test/05_dynamic_alg.c": {
+          "path": "/Users/marekklofac/Documents/test/qse-detection-test/05_dynamic_alg.c",
+          "totalLinesOfCode": 12,
+          "activeLinesOfCode": 11,
+          "methodDefined": 1,
+          "methodCalls": 0,
+          "variables": 0
+        },
+        "/Users/marekklofac/Documents/test/qse-detection-test/06_strings_only.c": {
+          "path": "/Users/marekklofac/Documents/test/qse-detection-test/06_strings_only.c",
+          "totalLinesOfCode": 11,
+          "activeLinesOfCode": 7,
+          "methodDefined": 1,
+          "methodCalls": 0,
+          "variables": 0
+        }
+      }
+    }
+  }
+}

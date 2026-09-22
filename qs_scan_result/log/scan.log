@@ -1,0 +1,48 @@
+[2026-09-22 13:19:34,684] [7-thread-1] [ INFO] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - input_folder canonical pathname: /Users/marekklofac/Documents/test
+[2026-09-22 13:19:34,686] [8-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Running Task: Execution Started
+[2026-09-22 13:19:34,686] [8-thread-2] [ INFO] [com.ibm.quantumsafe.analytics.utility.DeleteTask] - Cleaning up output directory 
+[2026-09-22 13:19:34,686] [8-thread-1] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Running Task: Getting Application name
+[2026-09-22 13:19:34,686] [8-thread-1] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Scanning initiated for the application :  
+[2026-09-22 13:19:34,686] [8-thread-2] [ INFO] [com.ibm.quantumsafe.analytics.utility.DeleteTask] - Cleaning up output directory completed. 
+[2026-09-22 13:19:34,686] [8-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - **********************************
+[2026-09-22 13:19:34,686] [8-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - '.c' Scan Initiated !!!                                         
+[2026-09-22 13:19:34,686] [8-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - 
+[2026-09-22 13:19:34,687] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - App Version : 2.3.2.2 Build Version : 202608.00107 -- Generated On Tue Sep 22 13:19:34 CEST 2026
+[2026-09-22 13:19:34,687] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                         PARAMETERS SENT TO DISCOVERY  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ app-name                                :  
++ app-version                             :  
++ isDebugEnabled                          : false
++ parameter-execution-mode                : crypto-name-matching-only,multi-language-selection
++ parameter-language-processing-list      : c
++ parameter-path-exclusion-filter         : 
++ parameter-path-filter                   : 
++ parameter-scan-type                     : Project Scan
++ parameter-source-filter                 : 
++ parameter-transaction-id                : 35b87640d57940d68395f279cfc964e8
++ project-output-dir                      : /Users/marekklofac/Documents/test/qs_scan_result
++ repository_id                           : openvpn
++ repository_url                          : https://github.com/OpenVPN/openvpn.git
++ root                                    : /Users/marekklofac/Documents/test
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[2026-09-22 13:19:34,687] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Getting file lists for c
+[2026-09-22 13:19:34,688] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Time taken to list files: 1 milliseconds
+[2026-09-22 13:19:34,688] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Parsing files and generating metrics
+[2026-09-22 13:19:34,695] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.reader.CFileProcessor] - Number of crypto relevant files is 4 out of 6 files.
+[2026-09-22 13:19:34,696] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Time taken to parse files: 8 milliseconds
+[2026-09-22 13:19:34,696] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Transformation started...
+[2026-09-22 13:19:34,698] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Time taken to transform the parsed trees: 2 milliseconds
+[2026-09-22 13:19:34,708] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Time taken to generate crypto findings: 10 milliseconds
+[2026-09-22 13:19:34,715] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Time taken to generate CBOM: 0 milliseconds
+[2026-09-22 13:19:34,715] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Time taken to generate dashboard: 7 milliseconds
+[2026-09-22 13:19:34,715] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Clean up activity is done
+[2026-09-22 13:19:34,715] [8-thread-2] [ INFO] [com.ibm.quantumsafe.discovery.Orchestrator] - Total time to taken to scan: 29 milliseconds
+[2026-09-22 13:19:34,715] [8-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - 
+[2026-09-22 13:19:34,715] [8-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Scan Completed !!!
+[2026-09-22 13:19:34,740] [7-thread-1] [ INFO] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - Number of lines scanned during current scan : 65
+[2026-09-22 13:19:34,741] [7-thread-1] [ INFO] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - Cummulative number of lines scanned including the last scan : 629963
+[2026-09-22 13:19:34,742] [7-thread-1] [ INFO] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - QS-Explorer: Scanning for module/project completed for the scan ID 35b87640d57940d68395f279cfc964e8
+[2026-09-22 13:19:35,703] [000-exec-7] [ INFO] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - QS-Explorer: List Findings request Initiated.For ID -> 35b87640d57940d68395f279cfc964e8
+[2026-09-22 13:19:35,706] [000-exec-7] [ INFO] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - QS-Explorer: List Findings request Completed.For ID -> 35b87640d57940d68395f279cfc964e8
